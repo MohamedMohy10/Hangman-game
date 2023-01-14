@@ -6,7 +6,7 @@ import os
 print(logo)
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
-print(f"TEST: word is {chosen_word}")
+#print(f"TEST: word is {chosen_word}")
 display = ["_" for i in range(word_length)]
 lives = 6
 end = False
